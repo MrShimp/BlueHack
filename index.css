@@ -1,0 +1,248 @@
+.Main_Window{
+  background-color: white;
+  height: 800px;
+  width: 400px;
+  margin-left: 500px;
+  border-radius: 40px;
+  border: 2px gray solid;
+}
+
+.Phone_Window{
+  border: 1px solid lightgray;
+  width: 370px;
+  height: 770px;
+  margin: 15px;
+  border-radius: 30px;
+}
+
+.Login{
+  background-color: #dcd6d9;
+  width: 370px;
+  height:770px;
+  border-radius: 30px;
+  border: none;
+}
+.logo{
+  margin-top: 80px;
+  margin-left: 40px;
+}
+.This{
+  color: white;
+  font-family: Microsoft Sans Serif;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 330px;
+}
+
+.button1{
+  width : 250px;
+  height: 50px;
+  border-radius: 50px;
+  border:none;
+  background-color: rgb(98,196,144);
+  text-align: center;
+  margin-left: 65px;
+  font-family: Microsoft Sans Serif;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.button2{
+  width : 250px;
+  height: 50px;
+  border-radius: 50px;
+  border:none;
+  background-color: white;
+  text-align: center;
+  margin-left: 65px;
+  margin-bottom: 10px;
+  font-family: Microsoft Sans Serif;
+}
+.That{
+  color: white;
+  font-family: Microsoft Sans Serif;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.Sign{
+  background-color: #c4a3bf;
+  width: 370px;
+  height:770px;
+  border-radius: 30px;
+  border: none;
+  display: none;
+}
+
+.Title1{
+  font-family: Microsoft Sans Serif;
+  font-size: 30px;
+  text-align: Center;
+  color: white;
+  font-family: Microsoft Sans Serif;
+  font-size: 30px;
+  margin:0px;
+}
+.button3{
+  width : 250px;
+  height: 50px;
+  border-radius: 50px;
+  border:none;
+  background-color: rgb(65,90,147);
+  text-align: center;
+  margin-left: 65px;
+  margin-bottom: 15px;
+  margin-top: 100px;
+  color: white;
+  font-family: Microsoft Sans Serif;
+}
+.button4{
+  width : 250px;
+  height: 50px;
+  border-radius: 50px;
+  border:none;
+  background-color: white;
+  text-align: center;
+  margin-left: 65px;
+  font-family: Microsoft Sans Serif;
+  margin-bottom: 15px;
+}
+.mid{
+  font-family: Microsoft Sans Serif;
+  font-size: 25px;
+  text-align: Center;
+  color: white;
+
+}
+.button5{
+  width : 250px;
+  height: 50px;
+  border-radius: 50px;
+  border:none;
+  background-color: rgb(200,200,147);
+  text-align: center;
+  margin-left: 65px;
+  font-family: Microsoft Sans Serif;
+  margin-bottom: 50px;
+  margin-top: 15px;
+}
+
+
+
+
+.Home{
+  display: none;
+}
+.title{
+  height: 20px;
+}
+
+.small{
+  font-family: Microsoft Sans Serif;
+  font-size: 16px;
+  color: lightgray;
+  margin-left: 15px;
+  font-weight: lighter;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.big{
+  font-family: Microsoft Sans Serif;
+  font-size: 24px;
+  color: black;
+  margin-left: 15px;
+  font-weight: BOLD;
+  margin-top: 0px;
+}
+
+.middle{
+  height:670px;
+  overflow: hidden;
+  overflow-y: scroll;
+
+}
+.First{
+  height: 200px;
+}
+
+.Second{
+  height: 200px;
+}
+.Third{
+  height: 200px;
+}
+
+.T1{
+  height:20px;
+  font-family: Microsoft Sans Serif;
+  color: rgb(84,84,84);
+  margin-top: 50px;
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+.T2{
+  height:20px;
+  font-family: Microsoft Sans Serif;
+  color: rgb(84,84,84);
+  margin-top: 30px;
+  margin-left: 15px;
+  font-size: 18px;
+}
+.T3{
+  height:20px;
+  font-family: Microsoft Sans Serif;
+  color: rgb(84,84,84);
+  margin-top: 30px;
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+.SL1{
+  height:170px;
+  overflow: hidden;
+  float:left;
+  width:50000px;
+  overflow-x: scroll;
+}
+
+.SUL ul{
+  list-style: none;
+  float:left;
+}
+.SUL li{
+  list-style: none;
+  float:left;
+  display:inline;
+  margin-right: 30px;
+}
+
+.image{
+  height:150px;
+  width:250px;
+  border-radius: 10px;
+}
+.bottom{
+  width: 370px;
+  height: 50px;
+  border-top: 1px solid gray;
+  margin-bottom: 0px;
+  position: absolute;
+}
+
+.Item{
+  height:30px;
+  width: 30px;
+  margin-left: 85px;
+  float: left;
+  margin-top: 5px;
+}
+.Item1{
+  height:30px;
+  width: 30px;
+  margin-left: 100px;
+  float: left;
+  margin-top: 5px;
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="twitter:" content="">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="swipe.js"></script>
+  <title>Demo</title>
+</head>
+<body>
+  <div class="Main_Window">
+    <div class="Phone_Window">
+      <div class="Login">
+        <div>
+
+        </div>
+        <img src="imgs/logo.png" class="logo">
+        <p class ="This" >Your personal workout action guidence</p>
+
+        <div class="Buttons">
+          <button type="button" name="button" class="button1">Jion Now</button>
+          <button type="button" name="button" class="button2">Log In</button>
+        </div>
+        <p class ="That">registration means that you agree to Our term</p>
+      </div>
+      <script type="text/javascript">
+      $(document).ready(function(){
+        $(".button1").click(function(){
+          $(".Login").animate({
+            width : "hide",
+            paddingLeft : "hide",
+            paddingRight : "hide",
+            marginLeft : "hide",
+            marginRight : "hide"},1000,null);
+          $(".Sign").show(1000);
+
+        });
+        $(".button3").click(function(){
+          $(".Sign").animate({
+            width : "hide",
+            paddingLeft : "hide",
+            paddingRight : "hide",
+            marginLeft : "hide",
+            marginRight : "hide"},1000,null);
+          $(".Home").animate({
+            width : "show",
+           paddingLeft : "show",
+           paddingRight : "show",
+           marginLeft : "show",
+           marginRight : "show"
+         }, 1000, null
+          );
+        });
+      });
+      </script>
+      <div class="Sign">
+        <div>
+
+        </div>
+        <p class="Title1" style="">Sign Up</p>
+
+        <div class="Buttons">
+          <button type="button" name="button" class="button3">Sign up with Email</button>
+          <button type="button" name="button" class="button4">Sign up with Email</button>
+          <div class="mid">
+            <span style="text-align:center">or</span>
+          </div>
+          <button type="button" name="button" class="button4">Sign up with Email</button>
+          <p class ="That">registration means that you agree to Our term</p>
+        </div>
+      </div>
+      <div class="Home">
+        <div class="info">
+
+        </div>
+        <div class="title">
+          <p class= "small">DISCOVER THE RIGHT</p>
+          <p class= "big">WORKOUTS</p>
+        </div>
+        <div class="middle" id = "middle">
+          <div class="First">
+            <div class="T1">
+              <p>Top Picks</p>
+            </div>
+            <div class="SL1" id="SL1">
+              <ul class ="SUL" id="slide1">
+                <li><a herf="/course.html"><img src="imgs/e1.jpg" class = "image" onclick="location.href='course.html'"></a></li>
+                <li><a><img src="imgs/e2.jpg" class = "image"></a></li>
+                <li><a><img src="imgs/e1.jpg" class = "image"></a></li>
+                <li><a><img src="imgs/e1.jpg" class = "image"></a></li>
+              </ul>
+            </div>
+            <script>
+              $(document).ready(function(){
+                  $(".slide1").flexslider({
+                    animation:"slide"
+                  });
+
+              });
+              </script>
+
+
+          </div>
+          <div class="Second">
+            <div class="T2">
+              <p>EXERCISE</p>
+            </div>
+            <div class="SL1">
+              <ul class ="SUL" id="slide1">
+                <li><a><img src="imgs/e1.jpg" class = "image"></a></li>
+                <li><a><img src="imgs/e2.jpg" class = "image"></a></li>
+                <li><a><img src="imgs/e1.jpg" class = "image"></a></li>
+                <li><a><img src="imgs/e1.jpg" class = "image"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="Third">
+            <div class="T2">
+              <p>YOGA</p>
+            </div>
+            <div class="SL1">
+              <ul class ="SUL" id="slide1">
+                <li><a><img src="imgs/e1.jpg" class = "image"></a></li>
+                <li><a><img src="imgs/e2.jpg" class = "image"></a></li>
+                <li><a><img src="imgs/e1.jpg" class = "image"></a></li>
+                <li><a><img src="imgs/e1.jpg" class = "image"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="bottom">
+          <div style="float:left">
+              <img src="imgs/main1.png" class="Item">
+              <p style="font-family: Microsoft Sans Serif;
+              font-size: 16px;margin-left: 82px;font-size: 14px;color: black;">Home</p>
+          </div>
+          <div style="float:left;">
+              <img src="imgs/meh.png" class="Item1">
+              <p style="font-family: Microsoft Sans Serif;
+              font-size: 16px;margin-left: 103px;font-size: 14px;color: lightgray;">User</p>
+          </div>
+        </div>
+      </div>
+
+      <script type="text/javascript">
+      var divscroll=document.getElementById('middle');
+      function divScroll(){
+        var scrollTop=divscroll.scrollTop;
+        var wholeHeight=divscroll.scrollHeight;
+        var divHeight=divscroll.clientHeight;
+        if(scrollTop+divHeight>=wholeHeight){
+          //alert('我到底部了');
+        }
+        if(scrollTop==0){
+          //alert('我到顶部了')；
+        }
+      }
+      var Box = document.getElementById("slide1");
+      function CreateDrag(Box){
+        Box.onmousedown = function(ev){
+          var ev = ev||event;
+          var Y  = ev.clientY;
+          var X = ev.clientX;
+          var ToTop = Box.scrollTop;
+          var Toleft = Box.scrollLeft;
+          Box.onmousemove = function(ev){
+            ev = ev||event;
+            var subY = ev.clientY - Y;
+            var subX = ev.clientX -X;
+            X = ev.clientX;
+            Y = ev.clientY;
+            ToTop -= (subY);
+            TpLeft -=(subX);
+            Box.scrollTop = ToTop;
+            Box.scrollLeft = Toleft;
+          }
+          document.onmouseup = function(){
+            Box.onmouseup = function(){
+              null;
+            }
+          }
+        }
+      }
+
+      </script>
+    </div>
+  </div>
+</body>
+</html>

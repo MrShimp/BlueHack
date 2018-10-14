@@ -1,0 +1,172 @@
+.Main_Window{
+  background-color: white;
+  height: 800px;
+  width: 400px;
+  margin-left: 500px;
+  border-radius: 40px;
+  border: 2px gray solid;
+}
+
+.Phone_Window{
+  border: 1px solid lightgray;
+  width: 370px;
+  height: 770px;
+  margin: 15px;
+  border-radius: 30px;
+}
+
+.title{
+  height: 20px;
+}
+
+.small{
+  font-family: Microsoft Sans Serif;
+  font-size: 16px;
+  color: lightgray;
+  margin-left: 15px;
+  font-weight: lighter;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.big{
+  font-family: Microsoft Sans Serif;
+  font-size: 24px;
+  color: black;
+  margin-left: 15px;
+  font-weight: BOLD;
+  margin-top: 0px;
+}
+
+.middle{
+  height:670px;
+  overflow: hidden;
+}
+.First{
+  height: 200px;
+}
+
+.Second{
+  height: 200px;
+}
+.Third{
+  height: 200px;
+}
+
+.T1{
+  height:20px;
+  font-family: Microsoft Sans Serif;
+  color: rgb(84,84,84);
+  margin-top: 50px;
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+.T2{
+  height:20px;
+  font-family: Microsoft Sans Serif;
+  color: rgb(84,84,84);
+  margin-top: 30px;
+  margin-left: 15px;
+  font-size: 18px;
+}
+.T3{
+  height:20px;
+  font-family: Microsoft Sans Serif;
+  color: rgb(84,84,84);
+  margin-top: 30px;
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+.SL1{
+  height:170px;
+  overflow: hidden;
+  float:left;
+}
+
+.SL1 ul li{
+  list-style: none;
+  float:left;
+}
+.SUL{
+  overflow:hidden;
+  float:left;
+}
+.image{
+  height:150px;
+  width:250px;
+  border-radius: 10px;
+}
+.bottom{
+  width: 370px;
+  height: 50px;
+  border-top: 1px solid gray;
+  margin-bottom: 0px;
+  position: absolute;
+}
+
+.Item{
+  height:50px;
+  width: 50px;
+  margin-left: 85px;
+  float: left;
+}
+.video{
+  height:300px;
+  width:370px;
+  list-style: none;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-left: 20px;
+  border-right:20px;
+}
+.intropic{
+  height:300px;
+  width:370px;
+  list-style: none;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-left: 20px;
+  border-right:20px;
+    margin-top:60px;
+}
+.notice{
+    background-color:darkgray;
+    height:100px;
+    position:relative;
+    padding-top:30px;
+    padding-left:80px;
+}
+#notice-content{
+   font-size: 20px;
+
+}
+
+.introduciton{
+    position:relative
+    
+    width:370px;
+    background-color:darkred;
+    
+}
+
+.intro-title{
+    
+}
+.intro-content{
+    
+}
+
+.start{
+    list-style: none;
+    
+}
+
+.start-icon{
+    margin-top:50px;
+    margin-left: 80px;
+    width:200px;
+    height:80px;
+    list-style: none;
+}
